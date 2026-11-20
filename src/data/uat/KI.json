@@ -1,0 +1,103 @@
+{
+  "password": "Password1",
+  "users": {
+    "superUser": "KI_SU_BRUAT41",
+    "branchManager": "KI_BM_BRUAT41",
+    "branchSupervisor": "KI_BS_BRUAT41",
+    "backOffice": "KI_BO_BRUAT41",
+    "enquiry": "KI_E_BRUAT41",
+    "loanOfficer": "KI_L_BRUAT41",
+    "loanManager": "KI_LM_BRUAT41",
+    "manager": "KI_MG_BRUAT41",
+    "teller": "KI_T_BRUAT41"
+  },
+  "customers": {
+    "retail": {
+      "id": "1001",
+      "name": "John Doe",
+      "balance": 5000
+    },
+    "corporate": {
+      "id": "1003",
+      "name": "Acme Corporation",
+      "balance": 250000
+    }
+  },
+  "unknownCustomers": {
+    "notRegistered": {
+      "id": "9999"
+    }
+  },
+  "newCustomers": {
+    "retail": {
+      "name": "Playwright Customer",
+      "type": "Retail",
+      "openingBalance": 0
+    }
+  },
+  "deposits": {
+    "salary": {
+      "amount": 1000,
+      "reason": "Salary credit"
+    },
+    "standard": {
+      "amount": 500,
+      "reason": "Cash deposit"
+    },
+    "decimal": {
+      "amount": 250.75,
+      "reason": "Cash deposit"
+    }
+  },
+  "withdrawals": {
+    "cash": {
+      "amount": 250,
+      "reason": "Cash withdrawal"
+    },
+    "standard": {
+      "amount": 200,
+      "reason": "Cash withdrawal"
+    },
+    "farAboveBalance": {
+      "amount": 999999,
+      "reason": "Cash withdrawal"
+    }
+  },
+  "amountsAboveBalance": {
+    "oneCent": 0.01
+  },
+  "invalidAmounts": {
+    "zero": 0,
+    "negative": -50
+  },
+  "depositReasons": {
+    "cash": "Cash deposit",
+    "cheque": "Cheque deposit",
+    "salary": "Salary credit",
+    "transfer": "Transfer received",
+    "refund": "Refund"
+  },
+  "withdrawalReasons": {
+    "cash": "Cash withdrawal",
+    "billPayment": "Bill payment",
+    "transferSent": "Transfer sent",
+    "serviceFee": "Service fee",
+    "loanRepayment": "Loan repayment"
+  },
+  "transactionTypes": {
+    "deposit": "Deposit",
+    "withdrawal": "Withdrawal"
+  },
+  "invalidPasswords": {
+    "wrongPassword": "WrongPass@000"
+  },
+  "messages": {
+    "invalidPassword": "Invalid password",
+    "transactionSuccess": "Transaction is successful",
+    "customerNotFound": "Customer not found",
+    "customerNotSelected": "Please search and select a customer first",
+    "invalidAmount": "Enter a valid amount greater than 0",
+    "insufficientFunds": "Insufficient funds for this withdrawal",
+    "tellerOnly": "Only Teller users can post transactions"
+  }
+}
